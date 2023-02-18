@@ -121,7 +121,7 @@
         <value>Thrust %</value>
     </data>
   <data name="Event_NaturalGravityName" xml:space="preserve">
-        <value>Natural Gravity g</value>
+        <value>天然重力 g</value>
     </data>
   <data name="GravitySymbol" xml:space="preserve">
         <value>g</value>
