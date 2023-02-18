@@ -1,4 +1,4 @@
-﻿namespace SeMoreEvents.Components
+﻿namespace SeMoreEvents.Components.Events
 {
     internal class ThrustState
     {

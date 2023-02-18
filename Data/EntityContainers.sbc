@@ -54,7 +54,8 @@
                 <TypeId>EventControllerBlock</TypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="ObjectBuilderThrustRatio" SubtypeId="EventControllerBlockComponent" ForceCreate="true"/>
+                <Component BuilderType="ObjectBuilderThrustRatio" SubtypeId="ThrustRatioEvent" ForceCreate="true"/>
+                <Component BuilderType="ObjectBuilderNaturalGravity" SubtypeId="NaturalGravityEvent" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
     </EntityContainers>

@@ -1,3 +1,3 @@
-﻿files:
+files:
   - source: /Data/Localization/MyTexts.resx
     translation: /Data/Localization/MyTexts.%locale%.resx

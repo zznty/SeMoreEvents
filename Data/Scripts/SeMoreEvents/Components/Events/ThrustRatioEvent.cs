@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using Sandbox.Game.Entities;
 using Sandbox.Game.EntityComponents;
 using Sandbox.ModAPI;
 using SeMoreEvents.ObjectBuilders;
+using SeMoreEvents.SessionComponents;
 using VRage.Game.Components;
 using VRage.Utils;
 
-namespace SeMoreEvents.Components
+namespace SeMoreEvents.Components.Events
 {
     [MyComponentBuilder(typeof(ObjectBuilderThrustRatio))]
     [MyComponentType(typeof(ThrustRatioEvent))]
     [MyEntityDependencyType(typeof(IMyEventControllerBlock))]
-    public class ThrustRatioEvent : MyEventProxyEntityComponent, IMyEventComponentWithGui
+    public class ThrustRatioEvent : MyEventProxyEntityComponent, IMyEventComponentWithGui, IEventControllerEvent
     {
         public override string ComponentTypeDebugString => nameof(ThrustRatioEvent);
         public long UniqueSelectionId => 6844801;
@@ -37,6 +39,12 @@ namespace SeMoreEvents.Components
                 SubscribeBlockEvent = b => _subscriptions[(IMyThrust)b] = new ThrustState(),
                 UnsubscribeBlockEvent = b => _subscriptions.Remove((IMyThrust)b),
             };
+            _eventGeneric.DetailedInfoChanged += EventGenericOnDetailedInfoChanged;
+        }
+
+        private void EventGenericOnDetailedInfoChanged(int arg1, long arg2, float arg3, bool arg4)
+        {
+            DetailedInfoSync.SendUpdateDetailedInfo(Block, nameof(ThrustRatioEvent), arg1, arg2, arg3);
         }
 
         public override void OnAddedToContainer()
@@ -95,6 +103,11 @@ namespace SeMoreEvents.Components
         public void RemoveBlocks(IEnumerable<IMyTerminalBlock> blocks)
         {
             _eventGeneric.RemoveBlocks(blocks);
+        }
+
+        public void UpdateDetailedInfo(StringBuilder info, int slot, long entityId, float value)
+        {
+            _eventGeneric.UpdateDetailedInfo(info, Block.Threshold, slot, entityId, value, Block.IsLowerOrEqualCondition);
         }
     }
 }
