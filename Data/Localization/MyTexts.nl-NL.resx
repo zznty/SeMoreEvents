@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Event_ThrustRatioName" xml:space="preserve">
-        <value>Thrust %</value>
+        <value>Stuwkracht %</value>
     </data>
   <data name="Event_NaturalGravityName" xml:space="preserve">
-        <value>Natural Gravity g</value>
+        <value>Natuurlijke zwaartekracht g</value>
     </data>
   <data name="GravitySymbol" xml:space="preserve">
         <value>g</value>
