@@ -57,6 +57,7 @@
                 <Component BuilderType="ObjectBuilderThrustRatio" SubtypeId="ThrustRatioEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderNaturalGravity" SubtypeId="NaturalGravityEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderTargetAcquired" SubtypeId="TargetAcquiredEvent" ForceCreate="true"/>
+                <Component BuilderType="ObjectBuilderWeather" SubtypeId="WeatherEvent" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
     </EntityContainers>
