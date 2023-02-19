@@ -6,9 +6,12 @@ namespace SeMoreEvents
     {
         public static readonly MyStringId EventThrustRatioName = MyStringId.GetOrCompute("Event_ThrustRatioName");
         public static readonly MyStringId EventNaturalGravityName = MyStringId.GetOrCompute("Event_NaturalGravityName");
+        public static readonly MyStringId EventTargetAcquiredName = MyStringId.GetOrCompute("Event_TargetAcquiredName");
         /// <summary>g</summary>
         public static readonly MyStringId GravitySymbol = MyStringId.GetOrCompute(nameof(GravitySymbol));
         /// <summary>%</summary>
         public static readonly MyStringId PercentSign = MyStringId.GetOrCompute(nameof(PercentSign));
+        /// <summary>m</summary>
+        public static readonly MyStringId LengthUnitSymbol = MyStringId.GetOrCompute(nameof(LengthUnitSymbol));
     }
 }

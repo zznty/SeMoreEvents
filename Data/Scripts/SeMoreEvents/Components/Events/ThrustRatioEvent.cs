@@ -44,7 +44,8 @@ namespace SeMoreEvents.Components.Events
 
         private void EventGenericOnDetailedInfoChanged(int arg1, long arg2, float arg3, bool arg4)
         {
-            DetailedInfoSync.SendUpdateDetailedInfo(Block, nameof(ThrustRatioEvent), arg1, arg2, arg3);
+            if (IsSelected)
+                DetailedInfoSync.SendUpdateDetailedInfo(Block, nameof(ThrustRatioEvent), arg1, arg2, arg3);
         }
 
         public override void OnAddedToContainer()

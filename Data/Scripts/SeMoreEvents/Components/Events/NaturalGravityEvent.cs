@@ -70,7 +70,8 @@ namespace SeMoreEvents.Components.Events
                 UnsubscribeBlockEvent = b => b.CubeGrid.PositionComp.OnPositionChanged -= Update,
                 IsObservingBlocks = false
             };
-            _eventGeneric.DetailedInfoChanged += EventGenericOnDetailedInfoChanged;
+            if (MyAPIGateway.Multiplayer.IsServer)
+                _eventGeneric.DetailedInfoChanged += EventGenericOnDetailedInfoChanged;
         }
 
         private static float GetGravity(IMyEntity b)
@@ -82,14 +83,15 @@ namespace SeMoreEvents.Components.Events
 
         private void EventGenericOnDetailedInfoChanged(int arg1, long arg2, float arg3, bool arg4)
         {
-            DetailedInfoSync.SendUpdateDetailedInfo(Block, nameof(NaturalGravityEvent), arg1, arg2, arg3);
+            if (IsSelected)
+                DetailedInfoSync.SendUpdateDetailedInfo(Block, nameof(NaturalGravityEvent), arg1, arg2, arg3);
         }
 
         public override void Deserialize(MyObjectBuilder_ComponentBase builder)
         {
             base.Deserialize(builder);
             var customBuilder = (MyObjectBuilder_ModCustomComponent)builder;
-            _gravity.Value = float.Parse(customBuilder.CustomModData);
+            _gravity.Value = float.Parse(customBuilder.CustomModData, CultureInfo.InvariantCulture);
         }
 
         public override MyObjectBuilder_ComponentBase Serialize(bool copy = false)
