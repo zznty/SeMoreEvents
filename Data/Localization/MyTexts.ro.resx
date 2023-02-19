@@ -126,4 +126,10 @@
   <data name="GravitySymbol" xml:space="preserve">
         <value>g</value>
     </data>
+  <data name="Event_TargetAcquiredName" xml:space="preserve">
+        <value>Target Acquired m</value>
+    </data>
+  <data name="Event_WeatherName" xml:space="preserve">
+        <value>Weather</value>
+    </data>
 </root>
