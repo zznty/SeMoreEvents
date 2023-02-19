@@ -127,9 +127,9 @@
         <value>g</value>
     </data>
   <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Target Acquired m</value>
+        <value>Захват Цели м</value>
     </data>
   <data name="Event_WeatherName" xml:space="preserve">
-        <value>Weather</value>
+        <value>Погода</value>
     </data>
 </root>
