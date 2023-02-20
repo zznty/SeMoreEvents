@@ -83,7 +83,7 @@ namespace SeMoreEvents.Components.Events
                 WeatherEffectDefinitions.AddRange(MyDefinitionManager.Static.GetWeatherDefinitions());
                 WeatherEffectsContent.AddRange(WeatherEffectDefinitions.Select((t, i) => new MyTerminalControlComboBoxItem
                 {
-                    Key = i, Value = t.DisplayNameEnum.GetValueOrDefault(MyStringId.GetOrCompute(t.DisplayNameText))
+                    Key = i, Value = MyStringId.GetOrCompute(t.Id.SubtypeName)
                 }));
             }
         }
