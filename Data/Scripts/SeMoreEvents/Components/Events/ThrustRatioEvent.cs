@@ -39,7 +39,8 @@ namespace SeMoreEvents.Components.Events
                 SubscribeBlockEvent = b => _subscriptions[(IMyThrust)b] = new ThrustState(),
                 UnsubscribeBlockEvent = b => _subscriptions.Remove((IMyThrust)b),
             };
-            _eventGeneric.DetailedInfoChanged += EventGenericOnDetailedInfoChanged;
+            if (MyAPIGateway.Multiplayer.IsServer)
+                _eventGeneric.DetailedInfoChanged += EventGenericOnDetailedInfoChanged;
         }
 
         private void EventGenericOnDetailedInfoChanged(int arg1, long arg2, float arg3, bool arg4)
