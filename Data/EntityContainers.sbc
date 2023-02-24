@@ -59,6 +59,7 @@
                 <Component BuilderType="ObjectBuilderTargetAcquired" SubtypeId="TargetAcquiredEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderWeather" SubtypeId="WeatherEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderProjectionBuilt" SubtypeId="ProjectionBuiltEvent" ForceCreate="true"/>
+                <Component BuilderType="ObjectBuilderEventControllerTriggered" SubtypeId="EventControllerTriggeredEvent" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
     </EntityContainers>
