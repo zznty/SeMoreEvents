@@ -132,4 +132,7 @@
   <data name="Event_WeatherName" xml:space="preserve">
         <value>Погода</value>
     </data>
+  <data name="Event_ProjectionBuiltName" xml:space="preserve">
+        <value>Projection Built %</value>
+    </data>
 </root>
