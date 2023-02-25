@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Event_ThrustRatioName" xml:space="preserve">
-        <value>Tryktab %</value>
+        <value>Drivkraft %</value>
     </data>
   <data name="Event_NaturalGravityName" xml:space="preserve">
         <value>Naturlig Tyngdekraft g</value>
@@ -127,21 +127,21 @@
         <value>g</value>
     </data>
   <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Mål fastlåst i m</value>
+        <value>Mål Fastlåst m</value>
     </data>
   <data name="Event_WeatherName" xml:space="preserve">
         <value>Vejr</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
-        <value>Projection bygget i %</value>
+        <value>Projection Bygget %</value>
     </data>
   <data name="Event_EventControllerTriggeredName" xml:space="preserve">
-        <value>Andre hændelsescontroller udløst</value>
+        <value>Andre Hændelsescontroller Aktiveret</value>
     </data>
   <data name="EventTriggered" xml:space="preserve">
-        <value>triggered</value>
+        <value>Aktiveret</value>
     </data>
   <data name="EventNotTriggered" xml:space="preserve">
-        <value>not triggered</value>
+        <value>Ikke Aktiveret</value>
     </data>
 </root>
