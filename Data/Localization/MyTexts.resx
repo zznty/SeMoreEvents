@@ -135,4 +135,13 @@
     <data name="Event_ProjectionBuiltName" xml:space="preserve">
         <value>Projection Built %</value>
     </data>
+    <data name="Event_EventControllerTriggeredName" xml:space="preserve">
+        <value>Other Event Controller Triggered</value>
+    </data>
+    <data name="EventTriggered" xml:space="preserve">
+        <value>triggered</value>
+    </data>
+    <data name="EventNotTriggered" xml:space="preserve">
+        <value>not triggered</value>
+    </data>
 </root>
