@@ -127,16 +127,16 @@
         <value>g</value>
     </data>
   <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Target Acquired m</value>
+        <value>Mål fastlåst i m</value>
     </data>
   <data name="Event_WeatherName" xml:space="preserve">
-        <value>Weather</value>
+        <value>Vejr</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
-        <value>Projection Built %</value>
+        <value>Projection bygget i %</value>
     </data>
   <data name="Event_EventControllerTriggeredName" xml:space="preserve">
-        <value>Other Event Controller Triggered</value>
+        <value>Andre hændelsescontroller udløst</value>
     </data>
   <data name="EventTriggered" xml:space="preserve">
         <value>triggered</value>
