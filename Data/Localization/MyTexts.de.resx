@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Event_ThrustRatioName" xml:space="preserve">
-        <value>Schub %</value>
+        <value>Antrieb %</value>
     </data>
   <data name="Event_NaturalGravityName" xml:space="preserve">
         <value>Natürliche Schwerkraft g</value>
@@ -127,12 +127,21 @@
         <value>g</value>
     </data>
   <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Target Acquired m</value>
+        <value>Ziel Erworben m</value>
     </data>
   <data name="Event_WeatherName" xml:space="preserve">
-        <value>Weather</value>
+        <value>Wetter</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
-        <value>Projection Built %</value>
+        <value>Projektion Gebaut %</value>
+    </data>
+  <data name="Event_EventControllerTriggeredName" xml:space="preserve">
+        <value>Anderer Ereigniscontroller Aktiviert</value>
+    </data>
+  <data name="EventTriggered" xml:space="preserve">
+        <value>Aktiviert</value>
+    </data>
+  <data name="EventNotTriggered" xml:space="preserve">
+        <value>Nicht Aktiviert</value>
     </data>
 </root>
