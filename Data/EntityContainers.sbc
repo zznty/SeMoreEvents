@@ -54,9 +54,6 @@
                 <TypeId>EventControllerBlock</TypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="ObjectBuilderThrustRatio" SubtypeId="ThrustRatioEvent" ForceCreate="true"/>
-                <Component BuilderType="ObjectBuilderNaturalGravity" SubtypeId="NaturalGravityEvent" ForceCreate="true"/>
-                <Component BuilderType="ObjectBuilderTargetAcquired" SubtypeId="TargetAcquiredEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderWeather" SubtypeId="WeatherEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderProjectionBuilt" SubtypeId="ProjectionBuiltEvent" ForceCreate="true"/>
                 <Component BuilderType="ObjectBuilderEventControllerTriggered" SubtypeId="EventControllerTriggeredEvent" ForceCreate="true"/>
