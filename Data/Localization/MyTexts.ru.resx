@@ -133,6 +133,15 @@
         <value>Погода</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
-        <value>Projection Built %</value>
+        <value>Готовность проекции %</value>
+    </data>
+  <data name="Event_EventControllerTriggeredName" xml:space="preserve">
+        <value>Другой контроллер событий</value>
+    </data>
+  <data name="EventTriggered" xml:space="preserve">
+        <value>срабатывал</value>
+    </data>
+  <data name="EventNotTriggered" xml:space="preserve">
+        <value>не срабатывал</value>
     </data>
 </root>
