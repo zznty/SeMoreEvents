@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Event_ThrustRatioName" xml:space="preserve">
-        <value>Antrieb %</value>
-    </data>
-  <data name="Event_NaturalGravityName" xml:space="preserve">
-        <value>Natürliche Schwerkraft g</value>
-    </data>
-  <data name="GravitySymbol" xml:space="preserve">
-        <value>g</value>
-    </data>
-  <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Ziel Erworben m</value>
-    </data>
   <data name="Event_WeatherName" xml:space="preserve">
         <value>Wetter</value>
     </data>
