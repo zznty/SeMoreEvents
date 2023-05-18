@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Event_WeatherName" xml:space="preserve">
-        <value>Hava</value>
+        <value>Hava Durumu</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
         <value>Tamamlanan Projeksiyon %</value>
     </data>
   <data name="Event_EventControllerTriggeredName" xml:space="preserve">
-        <value>Aktifleşen Diğer Olay Kontrolcüsü</value>
+        <value>Tetiklenen Diğer Olay Kontrolcüsü</value>
     </data>
   <data name="EventTriggered" xml:space="preserve">
-        <value>triggered</value>
+        <value>Tetiklenen</value>
     </data>
   <data name="EventNotTriggered" xml:space="preserve">
-        <value>not triggered</value>
+        <value>Tetiklenmeyen</value>
     </data>
 </root>
