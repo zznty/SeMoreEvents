@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Sandbox.Game.EntityComponents;
-using Sandbox.Game.Localization;
 using Sandbox.ModAPI;
 using SeMoreEvents.ObjectBuilders;
 using SeMoreEvents.SessionComponents;

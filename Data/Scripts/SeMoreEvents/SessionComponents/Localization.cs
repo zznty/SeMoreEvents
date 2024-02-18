@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Sandbox.Definitions;
 using Sandbox.ModAPI;
 using VRage;
 using VRage.Game.Components;

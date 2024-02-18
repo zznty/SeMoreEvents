@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using Sandbox.Definitions;
 using Sandbox.Game.Entities;
@@ -9,7 +8,6 @@ using SeMoreEvents.ObjectBuilders;
 using SeMoreEvents.SessionComponents;
 using VRage.Game.Components;
 using VRage.Game.ModAPI;
-using VRage.Library.Collections;
 using VRage.ModAPI;
 using VRage.Utils;
 
