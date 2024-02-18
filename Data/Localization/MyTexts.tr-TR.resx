@@ -117,31 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Event_ThrustRatioName" xml:space="preserve">
-        <value>Thrust %</value>
-    </data>
-  <data name="Event_NaturalGravityName" xml:space="preserve">
-        <value>Natural Gravity g</value>
-    </data>
-  <data name="GravitySymbol" xml:space="preserve">
-        <value>g</value>
-    </data>
-  <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Target Acquired m</value>
-    </data>
   <data name="Event_WeatherName" xml:space="preserve">
-        <value>Weather</value>
+        <value>Hava Durumu</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
-        <value>Projection Built %</value>
+        <value>Tamamlanan Projeksiyon %</value>
     </data>
   <data name="Event_EventControllerTriggeredName" xml:space="preserve">
-        <value>Other Event Controller Triggered</value>
+        <value>Tetiklenen Diğer Olay Kontrolcüsü</value>
     </data>
   <data name="EventTriggered" xml:space="preserve">
-        <value>triggered</value>
+        <value>Tetiklenen</value>
     </data>
   <data name="EventNotTriggered" xml:space="preserve">
-        <value>not triggered</value>
+        <value>Tetiklenmeyen</value>
     </data>
 </root>

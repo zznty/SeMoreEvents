@@ -117,31 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Event_ThrustRatioName" xml:space="preserve">
-        <value>Tragere %</value>
-    </data>
-  <data name="Event_NaturalGravityName" xml:space="preserve">
-        <value>Gravitație naturală g</value>
-    </data>
-  <data name="GravitySymbol" xml:space="preserve">
-        <value>g</value>
-    </data>
-  <data name="Event_TargetAcquiredName" xml:space="preserve">
-        <value>Target Acquired m</value>
-    </data>
   <data name="Event_WeatherName" xml:space="preserve">
-        <value>Weather</value>
+        <value>Vremea</value>
     </data>
   <data name="Event_ProjectionBuiltName" xml:space="preserve">
         <value>Projection Built %</value>
     </data>
   <data name="Event_EventControllerTriggeredName" xml:space="preserve">
-        <value>Other Event Controller Triggered</value>
+        <value>Alt controler de evenimente declanșat</value>
     </data>
   <data name="EventTriggered" xml:space="preserve">
-        <value>triggered</value>
+        <value>declanșat</value>
     </data>
   <data name="EventNotTriggered" xml:space="preserve">
-        <value>not triggered</value>
+        <value>nu este declanșat</value>
     </data>
 </root>
