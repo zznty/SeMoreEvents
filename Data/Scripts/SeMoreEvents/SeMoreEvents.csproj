@@ -3,12 +3,11 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>6</LangVersion>
-        <Configurations />
-        <Platforms />
+        <RestoreAdditionalProjectSources>https://nuget.storage.yandexcloud.net/index.json</RestoreAdditionalProjectSources>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="SpaceEngineersDedicated.ReferenceAssemblies" Version="1.202.66" PrivateAssets="all" IncludeAssets="compile" />
+      <PackageReference Include="SpaceEngineersDedicated.ReferenceAssemblies" Version="1.203.630" PrivateAssets="all" IncludeAssets="compile" />
     </ItemGroup>
 
 </Project>
