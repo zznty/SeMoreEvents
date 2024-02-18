@@ -156,6 +156,8 @@ namespace SeMoreEvents.Components.Events
 
             foreach (var projector in projectorsSet)
             {
+                if (projector.ProjectedGrid == null) continue;
+
                 var projectedBlock =
                     projector.ProjectedGrid.GetCubeBlock(
                         projector.ProjectedGrid.WorldToGridInteger(
